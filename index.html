@@ -2,10 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anh Khoi Phuong | Computer Engineering Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="site-header">
+    <nav class="top-nav">
+      <a class="logo" href="#home">Anh Khoi</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <p class="eyebrow">Computer Engineering & Web Development Portfolio</p>
+        <h1>An undergraduate engineer building secure systems, processor designs, and modern web apps.</h1>
+        <p class="hero-text">I am a Computer Engineering student at Case Western Reserve University with experience in Verilog, x86 assembly, cybersecurity, and full-stack web development.</p>
+        <a class="button" href="#projects">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section-panel">
+      <div class="section-intro">
+        <h2>About Me</h2>
+        <p>I am a Computer Engineering student at Case Western Reserve University, specializing in hardware logic, processor architecture, and cybersecurity-aware web applications. I have interned in security research, binary exploitation, and network systems while building practical projects in Verilog, Java, and web development.</p>
+      </div>
+    </section>
+
+    <section id="skills" class="section-panel">
+      <div class="section-intro">
+        <h2>Skills</h2>
+      </div>
+      <div class="skill-grid">
+        <div class="skill-group">
+          <h3>Low-Level / Systems</h3>
+          <ul>
+            <li><span class="icon-placeholder"><i class="fa-solid fa-code"></i></span> Verilog / HDL</li>
+            <li><span class="icon-placeholder"><i class="fa-solid fa-code"></i></span> x86 & MIPS Assembly</li>
+            <li><span class="icon-placeholder"><i class="fa-brands fa-python"></i></span> C / C++ / Python</li>
+            <li><span class="icon-placeholder"><i class="fa-solid fa-gears"></i></span> Security tools (GDB, BurpSuite, Wireshark)</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Software / Web</h3>
+          <ul>
+            <li><span class="icon-placeholder"><i class="fa-brands fa-java"></i></span> Java & JavaScript</li>
+            <li><span class="icon-placeholder"><i class="fa-brands fa-php"></i></span> PHP, Bash</li>
+            <li><span class="icon-placeholder"><i class="fa-solid fa-shield-halved"></i></span> Web application security</li>
+            <li><span class="icon-placeholder"><i class="fa-brands fa-chart-line"></i></span> Data tools: NumPy, Pandas, scikit-learn</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-panel">
+      <div class="section-intro">
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>MIPS CPU</h3>
+          <p>Designed a subset of MIPS architecture in Verilog with a 5-stage pipeline, hazard detection, forwarding, and stall control. Deployed the design on a Digilent Basys 3 FPGA board.</p>
+          <div class="tags">
+            <span>Verilog</span>
+            <span>FPGA</span>
+            <span>Pipelining</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>To-do List Web App</h3>
+          <p>Built a Java web application with JavaScript front-end and MongoDB Atlas for storage. Added offline editing and automatic sync when the internet connection is restored.</p>
+          <div class="tags">
+            <span>Java</span>
+            <span>MongoDB</span>
+            <span>Offline Sync</span>
+          </div>
+        </article>
+        <article class="project-card">
+          <h3>Security & CTF Research</h3>
+          <p>Completed internship work in binary exploitation and web security, using tools like GDB, BurpSuite, ZAP, and OWASP Juice Shop to practice secure development and vulnerability assessment.</p>
+          <div class="tags">
+            <span>GDB</span>
+            <span>BurpSuite</span>
+            <span>CTF</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:axp1264@case.edu">axp1264@case.edu</a></p>
+      <p>Phone / Zalo / WhatsApp: +1 (240) 234-2854</p>
+      <p>Connect on LinkedIn, GitHub, or other professional networks.</p>
+    </div>
+    <p class="footer-note">Portfolio designed for college coursework, internship growth, and real-world engineering practice.</p>
+  </footer>
 </body>
 </html>

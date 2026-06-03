@@ -1,0 +1,116 @@
+Anh Khoi Phuong
+Email: khoi07112006@gmail.com | Phone/Zalo/WhatsApp: +1 (240) 234-2854
+
+EDUCATION
+Case Western Reserve University (Cleveland, OH)​ ​
+​
+Candidate for Bachelor of Science in Computer Engineering
+
+​
+
+​
+
+2024 – 2028
+
+SKILLS
+Programming Languages: Python, Java, C, C++, PHP, Bash, x86 Assembly, PIC Assembly,
+MIPS Assembly
+AI and data analysis tools: NumPy, Pandas, scikit-learn, matplotlib
+Security tools: Wireshark, BurpSuite, ZAP, Postman, aircrack-ng, GDB
+Hardware Description Language: Verilog
+
+AWARDS
+Webster Godman Simon Mathematics Award​
+
+​
+
+​
+
+​
+
+ICPC: 6th at Youngstown Site, 44th in North America East Division
+
+​
+
+April 2026
+November 2025
+
+EXPERIENCE
+ECQ (Hanoi)
+September 2025 – Present
+Intern
+-​
+Used GDB to achieve proficiency with binary exploitation and x86 Assembly.​
+CMC Telecom (Hanoi)
+June 2025 – August 2025
+Intern
+-​
+Learned principles of computer networks;
+-​
+Learned the fundamentals of Linux, web exploits, and scripting through CTF challenges;
+-​
+Experimented with tools such as BurpSuite and ZAP through platforms such as OWASP
+Juice Shop;
+-​
+Assisted with 3 security assessments.
+-​
+Built a chatbot to provide information about cyberattacks.
+ECQ (Ho Chi Minh City)​ ​
+​
+​
+​
+​
+​
+July 2024 – August 2024
+Intern
+-​
+Explored the inner workings of the offensive cybersecurity industry;
+-​
+Ran demos of attacks on sample computer systems.
+
+PROJECTS
+MIPS CPU
+
+​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+​
+
+April - May 2026
+
+-​
+Used Verilog HDL to write RTL design of a subset of MIPS architecture with 5-stage
+pipelining combined with hazard detection, data forwarding, and stalling.
+-​
+Used Altera Cyclone IV FPGA Board and Quartus to execute the architecture on a
+7-segment display.
+To-do List: ​ ​
+​
+​
+​
+​
+​
+​
+​
+​
+​
+January 2026
+-​
+Made a to-do list web application with Java and JavaScript, with a JSON database on
+MongoDB Atlas.
+-​
+Handles offline editing and syncing when internet connection is restored.
+-​
+Penetration tested and verified safe against DDoS, XSS, Injection, and other significant
+web attacks.
+
+
